@@ -8,7 +8,6 @@
 }
 
 #slider{
-    height: 68.5vh; /*100vh*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,9 +15,7 @@
 }
 
 .img-slider{
-    position: relative;
-    width: 800px;
-    height: 500px;
+    width: 100%;
     margin: 10px;
     background: #ffffff;
 }
@@ -93,8 +90,9 @@
         height: 20vh;
     }
 
-    .img-slider{
-        width:  600px;
+    .img-slider{/* Valores anteriores w: 600px h: 375px*/
+        margin: 0;
+        width:  1000px;
         height: 375px;
     }
 
