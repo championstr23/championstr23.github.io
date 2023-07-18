@@ -9,8 +9,8 @@
 
 #slider{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;  Advert! 
+    align-items: center;        I just mdify because it seem better and looks good!    */
     background: #ffffff;
 }
 
