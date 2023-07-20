@@ -41,7 +41,7 @@ a{
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 0; 
-	border-radius: 4px;
+	border-radius: 0px; /* It was 4px but VB told me that it is better like this*/
 	box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 .header .logo{
